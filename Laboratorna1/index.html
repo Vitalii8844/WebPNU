@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <h1>Особиста Сторінка Каміня Віталія Ігоровича.</h1>
+    <p>Я по національності Українець.</p>
+    <p>Дата народження 24.12.2000</p>
+    <p>Все моє життя , я прожив  в м.Надвірна</p>
+    <p>На данний момент (2021 рік) навчаюсь в ПНУ ім.Василя Стефаника</p>
+    <ul>
+        <li>
+            <a id="text" onclick="changeColor()" href="biography.html">Автобіографія</a>
+        </li>
+        <li>
+            <a id="text" onclick="changeColor()" href="novadays.html">Сьогодення</a>
+        </li>
+        <li>
+            <a id="text" onclick="changeColor()" href="friends.html">Друзі</a>
+        </li>
+        <li>
+            <a id="text" onclick="changeColor()" href="gallery.html">Галерея</a>
+        </li>
+    </ul>
+
+    <script>
+        function getRandomColor() {
+            var letters = '0123456789ABCDEF';
+            var color = '#';
+            for (var i = 0; i < 6; i++) {
+                color += letters[Math.floor(Math.random() * 16)];
+            }
+            return color;
+        }
+
+        function changeColor() {
+            document.getElementById("text").style.backgroundColor = getRandomColor();
+        }
+    </script>
+</body>
+
+</html>

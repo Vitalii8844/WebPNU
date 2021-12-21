@@ -1,0 +1,23 @@
+#friends {
+    text-align: center;
+    font-size: 22px;
+}
+
+#center {
+    text-align: center;
+}
+
+#menu-return {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+table {
+    text-align: center;
+    background-color: rgb(128, 0, 0);
+    font-weight: bold;
+}
+
+tr,
+td {
+    margin: 10px;
+}

@@ -1,0 +1,19 @@
+#novadays {
+    font-size: 22px;
+}
+
+#center {
+    text-align: center;
+}
+
+#menu-return {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#even {
+    color: rgb(255, 251, 0);
+}
+
+#odd {
+    background-color: rgb(255, 0, 0);
+}

@@ -1,0 +1,28 @@
+#bio {
+    font-size: 22px;
+}
+
+#menu-return {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#zmist {
+    text-align: center;
+}
+
+a#href-buttons:hover {
+    color: rgb(25, 0, 255);
+}
+
+a#href-buttons:active {
+    color: rgb(60, 255, 0);
+    ;
+}
+
+header {
+    font-size: 1.2em;
+}
+
+a#zmist-return {
+    font-weight: bold;
+}
